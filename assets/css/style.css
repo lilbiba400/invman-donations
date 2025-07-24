@@ -14,10 +14,56 @@
 	color: #0a66c2;
 }
 
-#trade-offer {
-	color: #2a475e;
-}
+.button {
+	text-decoration: none;
+	margin-top: 10px;
+    backface-visibility: hidden;
+  	position: relative;
+  	width: 185px;
+  	height: 42px;
+  	cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(90deg,#1b2838 18.237975234563212%,#2a475e 100%);
+  border-radius: 7px;
+  border: 0px solid #444444;
+  border-width: 0px 0px 0px 0px;
+  padding: 10px 24px 10px 50px;
+    color: #ffffff;
+  font-size: 16px;
+  font-family: arial;
+  font-weight: 100;
+  font-style: normal
+  }
+  .button > div {
+    color: #999999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px
+  }
+  .button > i {
+    color: #171a21;
+  font-size: 1em;
+  background: #ffffff;
+  border-radius: 88px;
+  border: 0px solid #6ec286;
+  border-width: 0px 0px 0px 0px;
+  padding: 4px 4px 4px 4px;
+  margin: 0px 010px 0px 0px;
+  position: absolute;
+  top: 9px;
+  left: 17px;
+  width: 24px;
+  height: 24px
+  }
+  .button > .ld {
+    font-size: initial
+  }
 
-#github-sponsor{
-	color: #2dba4e;
-}
+  .button:hover{
+	background:#1b2838;
+	transition: 1s;
+  }
